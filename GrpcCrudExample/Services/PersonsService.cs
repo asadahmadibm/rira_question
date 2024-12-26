@@ -1,5 +1,4 @@
 ﻿using Grpc.Core;
-using GrpcCrudExample.Attributes;
 using GrpcCrudExample.Models;
 using GrpcCrudExample.Repositories;
 namespace GrpcCrudExample.Services
@@ -14,7 +13,6 @@ namespace GrpcCrudExample.Services
             _repository = repository;
             _logger = logger;
         }
-        [Log]
         public override async Task<PersonResponse> CreatePerson(CreatePersonRequest request, ServerCallContext context)
         {
             _logger.LogInformation("CreatePerson called with input: {@Request}", request);
@@ -32,7 +30,6 @@ namespace GrpcCrudExample.Services
 
             return MapToPersonResponse(createdPerson);
         }
-        [Log]
         public override async Task<PersonResponse> GetPerson(GetPersonRequest request, ServerCallContext context)
         {
             _logger.LogInformation("GetPerson called with input: {@Request}", request);
@@ -44,7 +41,6 @@ namespace GrpcCrudExample.Services
             }
             return MapToPersonResponse(person);
         }
-        [Log]
         public override async Task<PersonResponse> UpdatePerson(UpdatePersonRequest request, ServerCallContext context)
         {
             _logger.LogInformation("UpdatePerson called with input: {@Request}", request);
@@ -65,7 +61,6 @@ namespace GrpcCrudExample.Services
             }
             return MapToPersonResponse(updatedPerson);
         }
-        [Log]
         public override async Task<DeletePersonResponse> DeletePerson(DeletePersonRequest request, ServerCallContext context)
         {
             _logger.LogInformation("DeletePerson called with input: {@Request}", request);
@@ -89,7 +84,6 @@ namespace GrpcCrudExample.Services
                 BirthDate = person.BirthDate.ToString("yyyy-MM-dd")
             };
         }
-        [Log]
         public override async Task<PersonsList> GetAllPerson(Empty request, ServerCallContext context)
         {
             _logger.LogInformation("GetAllPerson called with input: {@Request}", request);
