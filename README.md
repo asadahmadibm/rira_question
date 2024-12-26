@@ -36,3 +36,4 @@
 نوع JSON در حالی که protobuf انتخاب پیشنهادی است، gRPC در NET Core از سریال‌سازی JSON نیز پشتیبانی می‌کند. JSON یک فرمت تبادل داده قابل خواندن توسط انسان است که به طور گسترده مورد استفاده قرار می گیرد. با سریال سازی JSON، ساختار پیام خود را با استفاده از اشیاء انتقال داده (DTOs) در سی شارپ تعریف می کنید که با ویژگی هایی مانند [DataContract] و [DataMember] حاشیه نویسی شده است. سپس سریال‌ساز JSON این اشیاء را برای ارتباط به فرمت JSON تبدیل می‌کند.
 
 
+               منبع : https://dev.to/ahmedshahjr/building-scalable-and-high-performance-applications-with-grpc-in-net-8-4ffp
