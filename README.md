@@ -1,7 +1,5 @@
 # rira_question
-# Crud implementation based on the Person model
- ➢ The desired ID model / name / surname / national code / date of birth
-
+##  پیاده‌سازی  CRUD بر اساس مدل پرسنل و استفاده از Protocol Buffers (gRPC) به جای REST، 
 
 ### ۱. ایجاد مدل داده
 ### ۲. تعریف فایل Proto
