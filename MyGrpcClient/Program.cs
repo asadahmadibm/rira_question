@@ -9,13 +9,6 @@ namespace MyGrpcClient
         {
             // ایجاد کانال gRPC
             var channel = GrpcChannel.ForAddress("http://localhost:3322"); // آدرس سرور
-            var client = new Greeter.GreeterClient(channel);
-
-            // ارسال درخواست
-            var reply = await client.SayHelloAsync(new HelloRequest { Name = "World" });
-            Console.WriteLine("Greeting: " + reply.Message);
-            Console.ReadLine();
-
             var clientperson = new PersonService.PersonServiceClient(channel);
 
             #region Create
@@ -55,6 +48,14 @@ namespace MyGrpcClient
             Empty empty=new Empty();
             var responsegetall = await clientperson.GetAllPersonAsync(empty);
             #endregion
+
+
+            var client = new Greeter.GreeterClient(channel);
+
+            // ارسال درخواست
+            var reply = await client.SayHelloAsync(new HelloRequest { Name = "World" });
+            Console.WriteLine("Greeting: " + reply.Message);
+            Console.ReadLine();
 
         }
     }

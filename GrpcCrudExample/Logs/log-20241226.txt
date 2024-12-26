@@ -93,3 +93,21 @@ System.NotSupportedException: Specified method is not supported.
 2024-12-26 15:27:29.226 +03:30 [INF] CreatePerson called with input: {"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01","$type":"CreatePersonRequest"}
 2024-12-26 15:27:30.990 +03:30 [INF] CreatePerson completed with output: {"Id":2,"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01T00:00:00.0000000","$type":"Person"}
 2024-12-26 15:27:31.003 +03:30 [INF] Request: /person.PersonService/CreatePerson started at "2024-12-26T11:57:28.6052408Z" responded with status code 200 in 2397 ms
+2024-12-26 15:33:09.766 +03:30 [WRN] Overriding address(es) 'http://localhost:3322'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-26 15:33:12.132 +03:30 [INF] SayHello
+2024-12-26 15:33:12.141 +03:30 [INF] Request: /greet.Greeter/SayHello started at "2024-12-26T12:03:12.1103328Z" responded with status code 200 in 30 ms
+2024-12-26 15:33:39.325 +03:30 [WRN] Overriding address(es) 'http://localhost:3322'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-26 15:33:41.059 +03:30 [INF] CreatePerson called with input: {"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01","$type":"CreatePersonRequest"}
+2024-12-26 15:33:41.446 +03:30 [INF] CreatePerson completed with output: {"Id":3,"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01T00:00:00.0000000","$type":"Person"}
+2024-12-26 15:33:41.458 +03:30 [INF] Request: /person.PersonService/CreatePerson started at "2024-12-26T12:03:40.9607426Z" responded with status code 200 in 498 ms
+2024-12-26 15:33:41.493 +03:30 [INF] GetPerson called with input: {"Id":3,"$type":"GetPersonRequest"}
+2024-12-26 15:33:41.681 +03:30 [INF] Request: /person.PersonService/GetPerson started at "2024-12-26T12:03:41.4901931Z" responded with status code 200 in 191 ms
+2024-12-26 15:33:41.696 +03:30 [INF] UpdatePerson called with input: {"Id":3,"FirstName":"Alice Updated","LastName":"Smith Updated","NationalCode":"1122334455","BirthDate":"1995-03-03","$type":"UpdatePersonRequest"}
+2024-12-26 15:33:41.713 +03:30 [INF] Request: /person.PersonService/UpdatePerson started at "2024-12-26T12:03:41.6932111Z" responded with status code 200 in 20 ms
+2024-12-26 15:33:41.719 +03:30 [INF] DeletePerson called with input: {"Id":3,"$type":"DeletePersonRequest"}
+2024-12-26 15:33:41.734 +03:30 [INF] Request: /person.PersonService/DeletePerson started at "2024-12-26T12:03:41.7181680Z" responded with status code 200 in 16 ms
+2024-12-26 15:33:41.744 +03:30 [INF] GetAllPerson called with input: {"$type":"Empty"}
+2024-12-26 15:33:41.752 +03:30 [INF] ListPersons returned 1 persons.
+2024-12-26 15:33:41.756 +03:30 [INF] Request: /person.PersonService/GetAllPerson started at "2024-12-26T12:03:41.7426365Z" responded with status code 200 in 13 ms
+2024-12-26 15:33:41.765 +03:30 [INF] SayHello
+2024-12-26 15:33:41.767 +03:30 [INF] Request: /greet.Greeter/SayHello started at "2024-12-26T12:03:41.7641539Z" responded with status code 200 in 3 ms
