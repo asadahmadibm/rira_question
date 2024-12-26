@@ -1,0 +1,95 @@
+2024-12-26 13:42:23.519 +03:30 [INF] SayHello
+2024-12-26 13:42:37.953 +03:30 [INF] CreatePerson called with FirstName: John, LastName: Doe
+2024-12-26 13:42:38.950 +03:30 [INF] GetPerson called with ID: 6
+2024-12-26 13:42:39.450 +03:30 [INF] UpdatePerson called with ID: 6
+2024-12-26 13:42:39.490 +03:30 [INF] DeletePerson called with ID: 6
+2024-12-26 13:42:39.515 +03:30 [INF] ListPersons called.
+2024-12-26 13:42:39.528 +03:30 [INF] ListPersons returned 2 persons.
+2024-12-26 13:45:59.001 +03:30 [INF] SayHello
+2024-12-26 13:46:02.061 +03:30 [INF] CreatePerson called with FirstName: John, LastName: Doe
+2024-12-26 13:46:02.436 +03:30 [INF] GetPerson called with ID: 7
+2024-12-26 13:46:02.615 +03:30 [INF] UpdatePerson called with ID: 7
+2024-12-26 13:46:02.635 +03:30 [INF] DeletePerson called with ID: 7
+2024-12-26 13:46:02.648 +03:30 [INF] ListPersons called.
+2024-12-26 13:46:02.656 +03:30 [INF] ListPersons returned 2 persons.
+2024-12-26 13:47:07.910 +03:30 [INF] SayHello
+2024-12-26 13:47:07.945 +03:30 [INF] Request: /greet.Greeter/SayHello responded with status code 200 in 3217 ms
+2024-12-26 13:47:11.499 +03:30 [INF] CreatePerson called with FirstName: John, LastName: Doe
+2024-12-26 13:47:12.255 +03:30 [INF] Request: /person.PersonService/CreatePerson responded with status code 200 in 907 ms
+2024-12-26 13:47:12.274 +03:30 [INF] GetPerson called with ID: 8
+2024-12-26 13:47:12.525 +03:30 [INF] Request: /person.PersonService/GetPerson responded with status code 200 in 254 ms
+2024-12-26 13:47:12.532 +03:30 [INF] UpdatePerson called with ID: 8
+2024-12-26 13:47:12.562 +03:30 [INF] Request: /person.PersonService/UpdatePerson responded with status code 200 in 32 ms
+2024-12-26 13:47:12.576 +03:30 [INF] DeletePerson called with ID: 8
+2024-12-26 13:47:12.586 +03:30 [INF] Request: /person.PersonService/DeletePerson responded with status code 200 in 11 ms
+2024-12-26 13:47:12.594 +03:30 [INF] ListPersons called.
+2024-12-26 13:47:12.605 +03:30 [INF] ListPersons returned 2 persons.
+2024-12-26 13:47:12.617 +03:30 [INF] Request: /person.PersonService/GetAllPerson responded with status code 200 in 24 ms
+2024-12-26 13:53:04.366 +03:30 [INF] SayHello
+2024-12-26 13:53:04.396 +03:30 [INF] Request: /greet.Greeter/SayHello started at "2024-12-26T10:23:02.5783408Z" responded with status code 200 in 1817 ms
+2024-12-26 13:53:07.886 +03:30 [INF] CreatePerson called with FirstName: John, LastName: Doe
+2024-12-26 13:53:08.256 +03:30 [INF] Request: /person.PersonService/CreatePerson started at "2024-12-26T10:23:07.8114680Z" responded with status code 200 in 445 ms
+2024-12-26 13:53:08.266 +03:30 [INF] GetPerson called with ID: 9
+2024-12-26 13:53:08.435 +03:30 [INF] Request: /person.PersonService/GetPerson started at "2024-12-26T10:23:08.2648963Z" responded with status code 200 in 171 ms
+2024-12-26 13:53:08.450 +03:30 [INF] UpdatePerson called with ID: 9
+2024-12-26 13:53:08.465 +03:30 [INF] Request: /person.PersonService/UpdatePerson started at "2024-12-26T10:23:08.4471521Z" responded with status code 200 in 17 ms
+2024-12-26 13:53:08.473 +03:30 [INF] DeletePerson called with ID: 9
+2024-12-26 13:53:08.483 +03:30 [INF] Request: /person.PersonService/DeletePerson started at "2024-12-26T10:23:08.4726221Z" responded with status code 200 in 11 ms
+2024-12-26 13:53:08.493 +03:30 [INF] ListPersons called.
+2024-12-26 13:53:08.502 +03:30 [INF] ListPersons returned 2 persons.
+2024-12-26 13:53:08.507 +03:30 [INF] Request: /person.PersonService/GetAllPerson started at "2024-12-26T10:23:08.4919477Z" responded with status code 200 in 15 ms
+2024-12-26 13:55:22.870 +03:30 [INF] SayHello
+2024-12-26 13:55:22.904 +03:30 [INF] Request: /greet.Greeter/SayHello started at "2024-12-26T10:25:20.8622597Z" responded with status code 200 in 2040 ms
+2024-12-26 13:55:25.952 +03:30 [INF] Request: /person.PersonService/CreatePerson started at "2024-12-26T10:25:25.5159357Z" responded with status code 200 in 436 ms
+2024-12-26 13:55:26.136 +03:30 [INF] Request: /person.PersonService/GetPerson started at "2024-12-26T10:25:25.9649764Z" responded with status code 200 in 171 ms
+2024-12-26 13:55:26.159 +03:30 [INF] Request: /person.PersonService/UpdatePerson started at "2024-12-26T10:25:26.1433466Z" responded with status code 200 in 16 ms
+2024-12-26 13:55:26.175 +03:30 [INF] Request: /person.PersonService/DeletePerson started at "2024-12-26T10:25:26.1670042Z" responded with status code 200 in 8 ms
+2024-12-26 13:55:26.190 +03:30 [INF] ListPersons returned 2 persons.
+2024-12-26 13:55:26.194 +03:30 [INF] Request: /person.PersonService/GetAllPerson started at "2024-12-26T10:25:26.1830677Z" responded with status code 200 in 11 ms
+2024-12-26 14:01:48.538 +03:30 [ERR] An unhandled exception has occurred
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at GrpcCrudExample.Middlewares.LoggingMiddleware.InvokeAsync(HttpContext context) in D:\Github\GrpcCrud\GrpcCrudExample\Middleware\LoggingMiddleware.cs:line 25
+   at GrpcCrudExample.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Github\GrpcCrud\GrpcCrudExample\Middleware\ErrorHandlingMiddleware.cs:line 22
+2024-12-26 14:02:18.534 +03:30 [ERR] An unhandled exception has occurred
+System.NotSupportedException: Specified method is not supported.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.set_Position(Int64 value)
+   at GrpcCrudExample.Middlewares.LoggingMiddleware.InvokeAsync(HttpContext context) in D:\Github\GrpcCrud\GrpcCrudExample\Middleware\LoggingMiddleware.cs:line 25
+   at GrpcCrudExample.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in D:\Github\GrpcCrud\GrpcCrudExample\Middleware\ErrorHandlingMiddleware.cs:line 22
+2024-12-26 14:09:08.405 +03:30 [INF] SayHello
+2024-12-26 14:09:08.438 +03:30 [INF] Request: /greet.Greeter/SayHello started at "2024-12-26T10:39:07.4864836Z" responded with status code 200 in 2749 ms
+2024-12-26 14:09:13.122 +03:30 [INF] CreatePerson called with input: {"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01","$type":"CreatePersonRequest"}
+2024-12-26 14:09:13.996 +03:30 [INF] CreatePerson completed with output: {"Id":11,"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01T00:00:00.0000000","$type":"Person"}
+2024-12-26 14:09:14.007 +03:30 [INF] Request: /person.PersonService/CreatePerson started at "2024-12-26T10:39:12.9631749Z" responded with status code 200 in 3132 ms
+2024-12-26 14:09:16.393 +03:30 [INF] GetPerson called with input: {"Id":11,"$type":"GetPersonRequest"}
+2024-12-26 14:09:16.723 +03:30 [INF] Request: /person.PersonService/GetPerson started at "2024-12-26T10:39:16.3884805Z" responded with status code 200 in 2703 ms
+2024-12-26 14:09:16.739 +03:30 [INF] UpdatePerson called with input: {"Id":11,"FirstName":"Alice Updated","LastName":"Smith Updated","NationalCode":"1122334455","BirthDate":"1995-03-03","$type":"UpdatePersonRequest"}
+2024-12-26 14:09:16.787 +03:30 [INF] Request: /person.PersonService/UpdatePerson started at "2024-12-26T10:39:16.7341122Z" responded with status code 200 in 53 ms
+2024-12-26 14:09:16.799 +03:30 [INF] DeletePerson called with input: {"Id":11,"$type":"DeletePersonRequest"}
+2024-12-26 14:09:16.814 +03:30 [INF] Request: /person.PersonService/DeletePerson started at "2024-12-26T10:39:16.7972143Z" responded with status code 200 in 17 ms
+2024-12-26 14:09:16.823 +03:30 [INF] GetAllPerson called with input: {"$type":"Empty"}
+2024-12-26 14:09:16.836 +03:30 [INF] ListPersons returned 2 persons.
+2024-12-26 14:09:16.840 +03:30 [INF] Request: /person.PersonService/GetAllPerson started at "2024-12-26T10:39:16.8215710Z" responded with status code 200 in 19 ms
+2024-12-26 14:23:48.219 +03:30 [INF] SayHello
+2024-12-26 14:23:48.252 +03:30 [INF] Request: /greet.Greeter/SayHello started at "2024-12-26T10:53:46.7227131Z" responded with status code 200 in 1528 ms
+2024-12-26 14:23:51.293 +03:30 [INF] CreatePerson called with input: {"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01","$type":"CreatePersonRequest"}
+2024-12-26 14:23:51.667 +03:30 [INF] CreatePerson completed with output: {"Id":1,"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01T00:00:00.0000000","$type":"Person"}
+2024-12-26 14:23:51.677 +03:30 [INF] Request: /person.PersonService/CreatePerson started at "2024-12-26T10:53:51.2105036Z" responded with status code 200 in 467 ms
+2024-12-26 14:23:51.688 +03:30 [INF] GetPerson called with input: {"Id":1,"$type":"GetPersonRequest"}
+2024-12-26 14:23:51.863 +03:30 [INF] Request: /person.PersonService/GetPerson started at "2024-12-26T10:53:51.6859051Z" responded with status code 200 in 177 ms
+2024-12-26 14:23:51.873 +03:30 [INF] UpdatePerson called with input: {"Id":1,"FirstName":"Alice Updated","LastName":"Smith Updated","NationalCode":"1122334455","BirthDate":"1995-03-03","$type":"UpdatePersonRequest"}
+2024-12-26 14:23:51.893 +03:30 [INF] Request: /person.PersonService/UpdatePerson started at "2024-12-26T10:53:51.8703097Z" responded with status code 200 in 23 ms
+2024-12-26 14:23:51.907 +03:30 [INF] DeletePerson called with input: {"Id":1,"$type":"DeletePersonRequest"}
+2024-12-26 14:23:51.950 +03:30 [INF] Request: /person.PersonService/DeletePerson started at "2024-12-26T10:53:51.8995218Z" responded with status code 200 in 51 ms
+2024-12-26 14:23:51.959 +03:30 [INF] GetAllPerson called with input: {"$type":"Empty"}
+2024-12-26 14:23:51.972 +03:30 [INF] ListPersons returned 0 persons.
+2024-12-26 14:23:51.977 +03:30 [INF] Request: /person.PersonService/GetAllPerson started at "2024-12-26T10:53:51.9583145Z" responded with status code 200 in 19 ms
+2024-12-26 15:24:12.053 +03:30 [WRN] Overriding address(es) 'http://localhost:3322, https://localhost:3323'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-26 15:25:39.510 +03:30 [WRN] Overriding address(es) 'http://localhost:3322, https://localhost:3323'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-26 15:26:24.900 +03:30 [WRN] Overriding address(es) 'http://localhost:3322'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-26 15:27:22.731 +03:30 [WRN] Overriding address(es) 'http://localhost:3322'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-12-26 15:27:23.110 +03:30 [INF] SayHello
+2024-12-26 15:27:23.119 +03:30 [INF] Request: /greet.Greeter/SayHello started at "2024-12-26T11:57:23.0823746Z" responded with status code 200 in 36 ms
+2024-12-26 15:27:29.226 +03:30 [INF] CreatePerson called with input: {"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01","$type":"CreatePersonRequest"}
+2024-12-26 15:27:30.990 +03:30 [INF] CreatePerson completed with output: {"Id":2,"FirstName":"John","LastName":"Doe","NationalCode":"1234567890","BirthDate":"1990-01-01T00:00:00.0000000","$type":"Person"}
+2024-12-26 15:27:31.003 +03:30 [INF] Request: /person.PersonService/CreatePerson started at "2024-12-26T11:57:28.6052408Z" responded with status code 200 in 2397 ms

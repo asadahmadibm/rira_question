@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcCrudExample";
+
+package person;
+
+service PersonService {
+  rpc CreatePerson (CreatePersonRequest) returns (PersonResponse);
+  rpc GetPerson (GetPersonRequest) returns (PersonResponse);
+  rpc UpdatePerson (UpdatePersonRequest) returns (PersonResponse);
+  rpc DeletePerson (DeletePersonRequest) returns (DeletePersonResponse);
+  rpc GetAllPerson (Empty) returns (PersonsList);
+
+}
+
+message CreatePersonRequest {
+  string first_name = 1;
+  string last_name = 2;
+  string national_code = 3;
+  string birth_date = 4;
+}
+
+message GetPersonRequest {
+  int32 id = 1;
+}
+
+message UpdatePersonRequest {
+  int32 id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string national_code = 4;
+  string birth_date = 5;
+}
+
+message DeletePersonRequest {
+  int32 id = 1;
+}
+
+message PersonResponse {
+  int32 id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string national_code = 4;
+  string birth_date = 5;
+}
+
+message DeletePersonResponse {
+  bool success = 1;
+}
+
+message PersonsList {
+    repeated PersonResponse persons = 1;
+}
+message Empty {}
