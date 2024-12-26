@@ -9,8 +9,8 @@
      1- Use Repository Pattern
      2- FluentValidation
      3- Midllware for Integrate error handling
-     4- use serilog & log for any operation
-     5- use customize status code
-     6- sqllite for simple database
+     4- use serilog & log for any operation in logs\log-{datetime}.txt
+     5- use customize status code 
+     6- sqllite for simple database in data\person.db
      7- use client for test services
     
